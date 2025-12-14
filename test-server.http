@@ -1,0 +1,54 @@
+###
+
+POST http://localhost:8958/admin/reset
+Content-Type: application/json
+
+###
+
+POST http://localhost:8958/api/chirps
+Content-Type: application/json
+a");
+{
+  "body": "If you're committed enough, you can make any story work.",
+  "userId": "a97996b4-b639-4790-9aa4-e51810217cbb"
+}
+
+###
+
+POST http://localhost:8958/api/chirps
+Content-Type: application/json
+
+{
+  "body": "Chirpy chirps is crispy.",
+  "userId": "a97996b4-b639-4790-9aa4-e51810217cbb"
+}
+
+###
+
+GET http://localhost:8958/api/chirps
+Content-Type: application/json
+
+###
+
+GET http://localhost:8958/api/chirps/a0d3f811-4fce-45c2-9ff8-bfc58eb675b9
+Content-Type: application/json
+
+###
+
+POST http://localhost:8958/api/users
+Content-Type: application/json
+
+{
+  "email": "saul@bettercall.com",
+  "password": "123456"
+}
+
+###
+
+POST http://localhost:8958/api/login
+Content-Type: application/json
+
+{
+  "email": "saul@bettercall.com",
+  "password": "123456"
+}

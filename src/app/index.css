@@ -1,0 +1,15 @@
+body {
+    background-color: #B4656F;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #F3A712;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

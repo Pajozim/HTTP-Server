@@ -1,0 +1,32 @@
+{
+  "name": "http-servers-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "test": "vitest --run"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^22.19.0",
+    "drizzle-kit": "^0.31.8",
+    "typescript": "^5.7.2",
+    "vitest": "^4.0.8"
+  },
+  "dependencies": {
+    "argon2": "^0.44.0",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.44.7",
+    "drizzle-seed": "^0.3.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "postgres": "^3.4.7",
+    "uuid": "^13.0.0"
+  }
+}
